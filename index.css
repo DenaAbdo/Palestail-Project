@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header nav {
+    width: 100%;
+    overflow-y: auto ;
+    height: 50px;
+}
+header{
+ background-color: #52bb98;   
+}
+main {
+    display: flex;
+    width: 85%;
+    flex: 1;
+    flex-direction: column;
+}
+.product{
+    border:2px  #7fffd4;
+    margin: 10px;
+    justify-content: center;
+}
+.product figure{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.productImage{
+    float:left;
+    width:40% ;
+}
+.productDescription{
+    float:right;
+    width: 50%;
+}
+.product-name{
+    text-align: left ;
+}
+.product_price{
+    text-align: right ;
+}
+.flex-container {
+    margin: 100px;
+    display: flex;
+}
+.flex-container nav{
+    width: 15%;
+    overflow-y: auto;
+}
+.error{
+    border-color: red;
+    background-color: #ffdddd;
+    color: red;
+}
+.error-message{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.required{
+    background-color: #FFF3CD;
+}
+input[type="text"]:focus {
+    background-color: #bae5a6;
+}
+.label{
+    border: 2px solid #3498db;
+}
+th{
+    text-align: center;
+    background-color: #7fffd4;
+    color: white;
+}
+td{
+    background-color: white;
+    color:black;
+    text-align: center;
+    align-items: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr:nth-child(2n) {
+    background-color: #52bb98;
+}
+tr:nth-child(2n-1) {
+    background-color: #ffffff;
+}
+a:link{
+    color:#3498db;
+    text-decoration: underline;
+}
+a:visited{
+    color: #344e69;
+    text-decoration: underline;
+}
+a:hover{
+    color: #1f6da8;
+    text-decoration: none;
+}
+#use external class for external links
+a.external,
+a.external:visited {
+    color: #e67e22; 
+    text-decoration: underline; 
+}
+
+a.external:hover {
+    color: #d35400; 
+    text-decoration: none;
+}
+button{
+    border: none;
+    color: black;
+    background: none;
+    cursor: pointer;
+}
+.submission-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: 2px solid #3498db; /* Border style */
+    background-color: #3498db; /* Default background color */
+    color: #fff; /* Default text color */
+    transition: background-color 0.3s, color 0.3s; /* Transition for smooth color change */
+}
+.submission-button:hover {
+    background-color: #344e69; /* Even darker background color on click */
+    color: #fff; /* Text color on click */
+}
+
+/* Image style */
+.submission-button img {
+    width: 20px; /* Adjust the width as needed */
+    margin-right: 8px; /* Add some spacing between the image and text */
+}
+
+#needs editing 
+ul {
+    list-style-type: none; /* Remove default bullet points */
+}
+
+ul > li {
+    background: url('top-level-marker.png') no-repeat left center; 
+    padding-left: 20px; 
+}
+
+/* Styling for nested unordered list */
+ul ul > li {
+    background: url('nested-level-marker.png') no-repeat left center; 
+}
+
+ol {
+    list-style-type: decimal; /* Use Arabic digits for top-level items */
+}
+
+ol ol {
+    list-style-type: lower-alpha; /* Use lowercase alphabetical characters for nested items */
+}
