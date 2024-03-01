@@ -1,4 +1,5 @@
 <footer>
+        <link rel="stylesheet" href="index.css">
         <li><img src="logo.jpg" alt="logo"/></li>
         <li>address</li>
         <li>phone</li>

@@ -1,6 +1,5 @@
 <header>
-    e-store name
-    <img src="logo.jpg" alt="logo">Logo
+    <img src="res/logo.png" alt="logo" width="20px" height="20px">Palestial
     <a href="aboutUs.php" >about us page link</a>
     <a href="userProfile.php">user Profile</a>
     <a href="viewCart.php">basket</a>
