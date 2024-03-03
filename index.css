@@ -5,8 +5,17 @@ body{
 }
 header nav {
     width: 100%;
-    overflow-y: auto ;
+    overflow: auto ;
     height: 50px;
+}
+header nav a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 16.6%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
 }
 header, footer{
  background-color: #C89116;
@@ -18,7 +27,7 @@ main {
     flex-direction: column;
 }
 .product{
-    border:2px  #7fffd4;
+    border:2px  #C89116;
     margin: 10px;
     justify-content: center;
 }
@@ -63,11 +72,11 @@ main {
     background-color: #FFF3CD;
 }
 input[type="text"]:focus {
-    background-color: #bae5a6;
+    background-color: #D0A440;
 }
 th{
     text-align: center;
-    background-color: #7fffd4;
+    background-color: #C89116;
     color: white;
 }
 td{
@@ -81,7 +90,7 @@ table {
     border-collapse: collapse;
 }
 a:link{
-    color:#3498db;
+    color:white;
     text-decoration: underline;
 }
 a:visited{
@@ -89,7 +98,7 @@ a:visited{
     text-decoration: underline;
 }
 a:hover{
-    color: #1f6da8;
+    color: #C89116;
     text-decoration: none;
 }
 #use external class for external links
@@ -114,13 +123,13 @@ button{
     align-items: center;
     justify-content: center;
     padding: 10px 15px;
-    border: 2px solid #3498db; /* Border style */
-    background-color: #3498db; /* Default background color */
+    border: 2px solid #C89116; /* Border style */
+    background-color: #C89116; /* Default background color */
     color: #fff; /* Default text color */
     transition: background-color 0.3s, color 0.3s; /* Transition for smooth color change */
 }
 .submission-button:hover {
-    background-color: #344e69; /* Even darker background color on click */
+    background-color: #D0A440; /* Even darker background color on click */
     color: #fff; /* Text color on click */
 }
 
