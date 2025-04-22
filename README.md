@@ -20,6 +20,17 @@ This project simulates a digital platform for a local store, focusing on showcas
 ## 🔐 Security Note
 The project is published without database credentials or environment keys for security reasons. You can manually set up a dummy database to explore its functionality.
 
+## Database
+
+The full MySQL database is included under the `/db` directory as `palestinian_store.sql`.  
+To use it:
+
+1. Open phpMyAdmin or your MySQL client.
+2. Create a new database (e.g., `palestinian_store`).
+3. Import the file `db/palestinian_store.sql`.
+
+This database includes all product data, categories, and user info required to run the app.
+
 ## 💡 To-Do / Improvements
 - Redesign frontend for better UX
 - Integrate secure authentication system
