@@ -22,7 +22,7 @@ The project is published without database credentials or environment keys for se
 
 ## Database
 
-The full MySQL database is included under the `/db` directory as `palestinian_store.sql`.  
+The full MySQL database is included as `webfinalproject.sql`.
 To use it:
 
 1. Open phpMyAdmin or your MySQL client.
